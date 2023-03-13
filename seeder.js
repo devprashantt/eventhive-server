@@ -19,7 +19,6 @@ db.once('open', async () => {
 
     // Create colleges
     const colleges = await College.insertMany([
-
         {
             name: 'IIIT Hyderabad',
             location: 'Hyderabad, India',
@@ -234,6 +233,7 @@ db.once('open', async () => {
             date: '2023-10-15T18:00:00.000Z',
             location: 'IIIT Hyderabad',
             status: 'Upcoming',
+            img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZXZlbnR8ZW58MHx8MHx8&w=1000&q=80",
             colleges: [colleges[0]._id],
             category: [categories[0]._id],
             resources: [resources[0]._id],
@@ -246,6 +246,7 @@ db.once('open', async () => {
             date: '2022-09-10T12:00:00.000Z',
             location: 'MIT',
             status: 'Finished',
+            img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZXZlbnR8ZW58MHx8MHx8&w=1000&q=80",
             colleges: [colleges[1]._id],
             category: [categories[0]._id],
             resources: [resources[1]._id],

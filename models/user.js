@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema(
         password: {
             type: String,
             required: function () {
-                return !this.isGoogleUser; // password is required only for non-Google users
+                return !this.isGoogleUser;
             }
         },
         name: {
@@ -52,7 +52,7 @@ const userSchema = new mongoose.Schema(
         isGoogleUser: {
             type: Boolean,
             default: function () {
-                return !!this.googleId; // if googleId is present, then it's a Google user
+                return !!this.googleId;
             }
         }
     },

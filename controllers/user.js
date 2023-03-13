@@ -1,5 +1,18 @@
 import User from '../models/user.js';
 
+export async function getUsers(req, res) {
+    try {
+        const users = await User.find()
+            .populate('college', 'name')
+            .populate('eventsOrganized', 'title')
+            .populate('eventsRegistered', 'title');
+        res.status(200).json(users);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: 'Server error' });
+    }
+}
+
 export async function createUser(req, res) {
     try {
         const { email, password, name, isOrganizer, collegeId } = req.body;

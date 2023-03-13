@@ -2,14 +2,10 @@ import User from '../models/user.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
-import passport from 'passport';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
-const JWT_SECRET = crypto.randomBytes(32).toString('hex');
-
-// Register a new user
 export async function signUp(req, res) {
     const { email, password, name, isOrganizer, college } = req.body;
 
@@ -20,14 +16,17 @@ export async function signUp(req, res) {
             return res.status(400).json({ message: 'User already exists' });
         }
 
+        // Salt
+        const salt = await bcrypt.genSalt();
+
         // Hash the password
-        const hashedPassword = await bcrypt.hash(password, 12);
+        const hashedPassword = await bcrypt.hash(password, salt);
 
         // Create the user in the database
         const newUser = await User.create({ email, password: hashedPassword, name, isOrganizer, college });
 
         // Generate a JWT token
-        const token = jwt.sign({ email: newUser.email, id: newUser._id }, JWT_SECRET, { expiresIn: '1h' });
+        const token = jwt.sign({ email: newUser.email, id: newUser._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
 
         res.status(201).json({ newUser, token });
     } catch (error) {
@@ -36,7 +35,6 @@ export async function signUp(req, res) {
     }
 }
 
-// Sign in an existing user
 export async function signIn(req, res) {
     const { email, password } = req.body;
 
@@ -54,24 +52,17 @@ export async function signIn(req, res) {
         }
 
         // Generate a JWT token
-        const token = jwt.sign({ email: existingUser.email, id: existingUser._id }, JWT_SECRET, { expiresIn: '1h' });
+        const token = jwt.sign({ email: existingUser.email, id: existingUser._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
 
-        res.status(200).json({ existingUser, token });
+        res.status(200).json({ existingUser, token, message: 'User signed in successfully', success: true });
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: 'Server error' });
     }
 }
 
-// Sign in an existing user using Google
-export async function googleSignIn(req, res) {
-    passport.authenticate('google', { scope: ['profile', 'email'] });
+export async function logout(req, res) {
+    res.clearCookie('jwt');
+    res.status(200).redirect('/');
 }
 
-// Callback function for Google sign in
-export async function googleCallback(req, res) {
-    passport.authenticate('google', {
-        successRedirect: process.env.CLIENT_URL,
-        failureRedirect: '/login/failed',
-    });
-}
