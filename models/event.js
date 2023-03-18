@@ -9,9 +9,36 @@ const eventSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    date: {
+    start_date: {
         type: Date,
         required: true
+    },
+    end_date: {
+        type: Date,
+        required: true
+    },
+    start_time: {
+        type: String,
+        required: true
+    },
+    end_time: {
+        type: String,
+        required: true
+    },
+    facebook_link: {
+        type: String,
+    },
+    instagram_link: {
+        type: String,
+    },
+    twitter_link: {
+        type: String,
+    },
+    website_link: {
+        type: String,
+    },
+    linkedin_link: {
+        type: String,
     },
     location: {
         type: String,
