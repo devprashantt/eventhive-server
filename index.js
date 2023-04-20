@@ -26,6 +26,7 @@ import resource from './routes/resource.js';
 import user from './routes/user.js';
 import category from './routes/category.js';
 import auth from './routes/auth.js';
+import subscriber from './routes/subscriber.js';
 
 // Load environment variables
 dotenv.config();
@@ -79,6 +80,9 @@ app.use('/resources', resource);
 app.use('/categories', category);
 
 app.use('/auth', auth);
+
+// Add subscription routes
+app.use('/subscriber', subscriber)
 
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));

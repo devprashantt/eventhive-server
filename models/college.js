@@ -4,6 +4,8 @@ const collegeSchema = new mongoose.Schema({
     name: String,
     location: String,
     link: String,
+    description: String,
+    logoUrl: String,
     imgUrl: String,
     events: [{
         type: mongoose.Schema.Types.ObjectId,

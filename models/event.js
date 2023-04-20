@@ -3,27 +3,15 @@ import mongoose from 'mongoose';
 const eventSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true
     },
     description: {
         type: String,
-        required: true
     },
     start_date: {
         type: Date,
-        required: true
-    },
-    end_date: {
-        type: Date,
-        required: true
     },
     start_time: {
         type: String,
-        required: true
-    },
-    end_time: {
-        type: String,
-        required: true
     },
     facebook_link: {
         type: String,
@@ -42,7 +30,6 @@ const eventSchema = new mongoose.Schema({
     },
     location: {
         type: String,
-        required: true
     },
     img: {
         type: String,
