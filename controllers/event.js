@@ -1,5 +1,6 @@
 import Event from '../models/event.js';
 import College from '../models/college.js';
+import { uploadImage } from '../config/cloudinary.js';
 
 // Get all events
 export async function getEvents(req, res) {
@@ -28,13 +29,19 @@ export async function getEventById(req, res) {
 
 // Create a new event
 export async function createEvent(req, res) {
+
     try {
+        // Upload the banner image to cloudinary and get the URL
+        const banner_link = await uploadImage(req.body.banner);
+
         const event = new Event({
             name: req.body.name,
-            date: req.body.date,
+            start_date: req.body.date,
             description: req.body.description,
+            start_time: req.body.startTime,
+            end_time: req.body.endTime,
             location: req.body.location,
-            imgUrl: req.body.imgUrl,
+            banner: banner_link,
             colleges: req.body.college,
         });
         await event.save();

@@ -1,14 +1,15 @@
 import cloudinary from 'cloudinary';
 
-export async function uploadImage(req, res) {
+// Cloudinary image upload
+
+export async function uploadImage(banner) {
     try {
-        const { image } = req.body;
-        const result = await cloudinary.v2.uploader.upload(image, {
+        const result = await cloudinary.v2.uploader.upload(banner, {
             folder: 'eventhive',
         });
-        res.status(200).json({ url: result.secure_url });
+        return result.secure_url;
     } catch (err) {
         console.error(err);
-        res.status(500).json({ error: 'Server error' });
+        throw new Error('Failed to upload image');
     }
 }

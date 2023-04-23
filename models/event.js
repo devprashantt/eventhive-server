@@ -13,6 +13,9 @@ const eventSchema = new mongoose.Schema({
     start_time: {
         type: String,
     },
+    end_time: {
+        type: String,
+    },
     facebook_link: {
         type: String,
     },
@@ -31,7 +34,7 @@ const eventSchema = new mongoose.Schema({
     location: {
         type: String,
     },
-    img: {
+    banner: {
         type: String,
     },
     status: {
