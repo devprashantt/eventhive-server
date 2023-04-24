@@ -89,7 +89,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Default routes
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html')); // Serve index.html for root route
+    res.send('Hello World!');
 });
 
 // Error handling middleware
