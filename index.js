@@ -2,18 +2,16 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import path from 'path';
 import bodyParser from 'body-parser';
 import compression from 'compression';
 import morgan from 'morgan';
 import session from 'express-session';
 import passport from 'passport';
 import cloudinary from 'cloudinary';
-import { fileURLToPath } from 'url';
+import cookieParser from 'cookie-parser';
 
 // Import configuration files and middleware
 import connectDB from './config/database.js';
-import verifyToken from './middleware/verifyToken.js';
 import errorHandler from './middleware/errorHandler.js';
 import notFoundHandler from './middleware/notFoundHandler.js';
 
@@ -41,15 +39,14 @@ cloudinary.config({
 // Connect to the database
 connectDB();
 
-// Define file paths
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 // Create the Express app
 const app = express();
 
 // Add middleware
-app.use(cors()); // Enable CORS
+app.use(cors({
+    origin: 'http://127.0.0.1:5173',
+    credentials: true
+})); // Enable CORS
 app.use(bodyParser.json({ limit: '30mb', extended: true })); // Parse JSON
 app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded data
 app.use(compression()); // Compress responses
@@ -63,12 +60,15 @@ app.use(session({
     cookie: { secure: true } // Use secure cookies
 }));
 
+// Add cookie middleware
+app.use(cookieParser());
+
 // Add passport middleware
 app.use(passport.initialize());
 app.use(passport.session());
 
 // Add routes
-app.use('/users', verifyToken, user); // Require authentication for /users route
+app.use('/users', user); // Require authentication for /users route
 
 app.use('/colleges', college);
 app.use('/events', event);
@@ -83,9 +83,6 @@ app.use('/auth', auth);
 
 // Add subscription routes
 app.use('/subscriber', subscriber)
-
-// Serve static files
-app.use(express.static(path.join(__dirname, 'public')));
 
 // Default routes
 app.get('/', (req, res) => {

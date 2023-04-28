@@ -31,20 +31,18 @@ export async function createUser(req, res) {
     }
 }
 
-export async function getUserById(req, res) {
+export async function getUser(req, res) {
+    const userId = req.id;
+    let user;
     try {
-        const user = await User.findById(req.params.userId)
-            .populate('college', 'name')
-            .populate('eventsOrganized', 'title')
-            .populate('eventsRegistered', 'title');
-        if (!user) {
-            return res.status(404).json({ error: 'User not found' });
-        }
-        res.status(200).json(user);
+        user = await User.findById(userId, "-password");
     } catch (err) {
-        console.error(err);
-        res.status(500).json({ error: 'Server error' });
+        return new Error(err);
     }
+    if (!user) {
+        return res.status(404).json({ messsage: "User Not Found" });
+    }
+    return res.status(200).json({ user });
 }
 
 export async function updateUser(req, res) {
