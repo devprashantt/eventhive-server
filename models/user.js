@@ -21,6 +21,12 @@ const userSchema = new mongoose.Schema(
         isOrganizer: {
             type: Boolean
         },
+        tasks: [
+            {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: 'Task',
+            },
+        ],
         college: {
             type: mongoose.Schema.Types.ObjectId,
             ref: 'College',

@@ -25,6 +25,7 @@ import user from './routes/user.js';
 import category from './routes/category.js';
 import auth from './routes/auth.js';
 import subscriber from './routes/subscriber.js';
+import task from './routes/task.js';
 
 // Load environment variables
 dotenv.config();
@@ -68,7 +69,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Add routes
-app.use('/users', user); // Require authentication for /users route
+app.use('/users', user);
+app.use('/users', task);
 
 app.use('/colleges', college);
 app.use('/events', event);

@@ -96,3 +96,24 @@ export async function deleteEvent(req, res) {
         res.status(500).json({ error: 'Server error' });
     }
 }
+
+// Create a new payment
+export async function createPayment(req, res) {
+    try {
+        const event = await Event.findById(req.params.eventId);
+        if (!event) {
+            return res.status(404).json({ error: 'Event not found' });
+        }
+        const payment = {
+            amount: req.body.amount,
+            date: req.body.date,
+            description: req.body.description,
+        };
+        event.payments.push(payment);
+        await event.save();
+        res.status(201).json(event);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: 'Server error' });
+    }
+}

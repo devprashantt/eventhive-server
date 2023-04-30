@@ -22,7 +22,7 @@ export function refreshToken(req, res, next) {
     if (!prevToken) {
         return res.status(400).json({ message: "Couldn't find token" });
     }
-    jwt.verify(String(prevToken), process.env.JWT_SECRET_KEY_KEY, (err, user) => {
+    jwt.verify(String(prevToken), process.env.JWT_SECRET_KEY, (err, user) => {
         if (err) {
             console.log(err);
             return res.status(403).json({ message: "Authentication failed" });
@@ -30,7 +30,7 @@ export function refreshToken(req, res, next) {
         res.clearCookie(`${user.id}`);
         req.cookies[`${user.id}`] = "";
 
-        const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET_KEY_KEY, {
+        const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET_KEY, {
             expiresIn: "30d",
         });
         console.log("Regenerated Token\n", token);
