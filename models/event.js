@@ -37,6 +37,10 @@ const eventSchema = new mongoose.Schema({
     banner: {
         type: String,
     },
+    price: {
+        type: Number,
+        default: 1
+    },
     status: {
         type: String,
         enum: ['Upcoming', 'Ongoing', 'Finished'],

@@ -1,6 +1,12 @@
+import dotenv from 'dotenv';
+import Stripe from 'stripe';
 import Event from '../models/event.js';
 import College from '../models/college.js';
 import { uploadImage } from '../config/cloudinary.js';
+
+dotenv.config();
+
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // Get all events
 export async function getEvents(req, res) {
@@ -100,18 +106,33 @@ export async function deleteEvent(req, res) {
 // Create a new payment
 export async function createPayment(req, res) {
     try {
-        const event = await Event.findById(req.params.eventId);
+        const event = await Event.findById(req.body.eventId);
+        console.log(event);
         if (!event) {
             return res.status(404).json({ error: 'Event not found' });
         }
-        const payment = {
-            amount: req.body.amount,
-            date: req.body.date,
-            description: req.body.description,
-        };
-        event.payments.push(payment);
-        await event.save();
-        res.status(201).json(event);
+
+        const session = await stripe.checkout.sessions.create({
+            payment_method_types: ['card'],
+            line_items: [
+                {
+                    price_data: {
+                        currency: 'inr',
+                        product_data: {
+                            name: event.name,
+                        },
+                        unit_amount: event.price * 100,
+                    },
+                    quantity: 1,
+                },
+            ],
+            mode: 'payment',
+            success_url: `${process.env.CLIENT_URL}/events/${event._id}/success`,
+            cancel_url: `${process.env.CLIENT_URL}/events/${event._id}/cancel`,
+        });
+
+        res.status(200).json({ id: session.id });
+
     } catch (err) {
         console.error(err);
         res.status(500).json({ error: 'Server error' });

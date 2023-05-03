@@ -386,7 +386,7 @@ const colleges_data = [
             {
                 name: 'Anwesha',
                 description: 'Anwesha is the Annual Techno-Cultural festival of the Indian Institute of Technology Patna. Anwesha, the quest for grandeur, opulence, creativity and perfection, since its inception in 2010 has turned out to be one of east India’s biggest and most awaited youth festivals, witnessing participation from all over the country. The previous editions have been a memorable experience to the crowd, with an escalating footfall every year.',
-                imgUrl: '',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682201796/eventhive/eventpic/Anwesha_afufzr.jpg',
                 website: 'https://www.iitp.ac.in/hosca/anwesha.php',
                 type: ['Technical', 'Cultural']
             },
@@ -765,10 +765,9 @@ const colleges_data = [
         fests: [
             {
                 name: 'Agnito',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                description: 'IIIT Sonepat Agnito is an exciting sports fest organized by the Indian Institute of Information Technology (IIIT) Sonepat in Haryana, India. The event brings together students from different colleges and universities to participate in a variety of sports competitions, including both indoor and outdoor games. The sports fest provides a platform for students to showcase their skills and compete with their peers in a friendly and competitive environment. The participants can choose from a wide range of sports, including cricket, football, basketball, badminton, volleyball, table tennis, and many more. In addition to the sports competitions, IIIT Sonepat Agnito also includes cultural events, such as dance performances and music shows, to create a festive atmosphere and promote diversity and inclusivity. Students from various cultural backgrounds and regions come together to showcase their talent and celebrate their differences.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682875422/eventhive/eventpic/agnito.iiitsonepat-20230430-0002_jadvqn.jpg',
+                type: 'Sports'
             }
 
         ]
@@ -782,25 +781,17 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712708/eventhive/photos/iiit/Una_m7pvqc.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Meraki',
+                description: ' IIIT Una Meraki tech fest is an excellent opportunity for students to showcase their technical expertise, learn new skills, and network with industry professionals. The festival promotes innovation and creativity in the field of technology and inspires young minds to pursue their passion for science and technology.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682537452/eventhive/eventpic/Meraki_povkgv.jpg',
+                website: 'https://iiitu-meraki.github.io/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Mridang',
+                description: 'Mridang is an annual cultural festival organized by the Indian Institute of Information Technology (IIIT) Una in Himachal Pradesh, India. The festival celebrates the rich cultural diversity of India and provides a platform for students from different colleges and universities to showcase their talents in various art forms.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682537947/eventhive/eventpic/Mridang_fdqyom.jpg',
+                type: 'Cultural'
             }
 
         ]
@@ -815,25 +806,10 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712710/eventhive/photos/iiit/Sri_City_murvrp.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Abhisarga',
+                description: 'Abhisarga is the annual techno-cultural fest of the Indian Institute of Information Technology Sri City, which is a premier engineering institute located in Andhra Pradesh, India. This three-day carnival consists of Technical and Non-technical events organized by the clubs of our institute, and the expected participants are from institutes like IITs, NITs, IIITs and other well-known institutions.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682538362/eventhive/eventpic/Abhisarga_ebn5y7.jpg',
+                type: ['Technical', 'Culture']
             }
 
         ]
@@ -847,25 +823,25 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712709/eventhive/photos/iiit/Vadodara_htsoma.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Cerebro',
+                description: 'Cerebro is the annual Technical Fest of IIIT Vadodara. It is a 3-day long fun-filled journey with lots of events to participate in the field of technology, gaming, designing, photography and literature with amazing prizes.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682716167/eventhive/eventpic/Cerebro_hggdbu.png',
+                website: 'https://cerebro.iiitvadodara.ac.in/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Kreiva',
+                description: 'Kreiva is the annual cultural festival of Indian Institute of Information Technology, Vadodara. Kreiva serves as a platform for students to show their talents in performing arts and aesthetic arts, where students can collaborate and team up with other students to bring out the best in them.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682716209/eventhive/eventpic/Kreiva_cmb8wl.jpg',
+                website: 'https://kreiva.netlify.app/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Ventura',
+                description: 'Ventura is the annual sports fest organized by the Sports Committee. It is the biggest sports event organized in IIITV. It includes plenty of sports activities that cover both indoor and outdoor sports. Organized at SAI (Sports Authority of India, Gandhinagar), it is an Intra-Institute sports event where only the students of IIITV can participate. Winners are awarded exciting prizes as well as receive certificates from the institute.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682716306/eventhive/eventpic/Ventura_op5onn.png',
+                website: 'https://gymkhana.iiitvadodara.ac.in/festival/ventura/',
+                type: 'Sports'
             }
 
         ]
@@ -879,25 +855,23 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712704/eventhive/photos/iiit/Allahabad_saqaxv.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Effervescence',
+                description: 'Efferescence" is the annual cultural and technical festival of the Indian Institute of Information Technology (IIIT) Allahabad. The event is organized by the student body of IIIT Allahabad and typically takes place over the course of several days. The festival includes a wide variety of events, including technical competitions, cultural performances, sports tournaments, and guest lectures from industry experts. Some of the popular events include coding competitions, robotics contests, dance and music performances, and fashion shows. Efferescence attracts participants from all over India, including students from other technical institutes, and is considered one of the most prominent college festivals in the country. The festival provides a platform for students to showcase their talents, compete with their peers, and engage with industry professionals. It also serves as an opportunity for students to socialize, network, and form lasting connections with others in the field.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682716376/eventhive/eventpic/Effervescence_wmmb7p.jpg',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Aparoksha',
+                description: 'We, at Aparoksha, collaborate with enthusiasts who have a knack for tech, in order to foster creativity through technology and filter the innovative young tech minds from the crowd who later turn out to be the pride of the country. A footfall of over 16000+ enthusiasts from 130+ colleges gathered at Aparoksha and became a part of our technical family in the previous years edition. With this, combined with the desire to deliver an even better time to those who enjoy technology, Aparoksha aims to break all barriers and come out to become one of the largest tech fests of the north.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682784548/eventhive/eventpic/Aparoksha_mnlnu5.jpg',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Asmita',
+                description: 'Asmita is IIIT Allahabad’s annual sports festival. After multiple successful editions in the past, it has become a flagship sports festival in North India. The word Asmita signifies glory and the feeling of oneness, and the festival rightly lives up to its name by bringing together the best players and teams of multiple renowned institutes on the sports field.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682784815/eventhive/eventpic/Asmita_pfwayi.png',
+                website: 'https://asmita.iiita.ac.in/',
+                type: 'Sports'
             }
 
         ]
@@ -911,25 +885,18 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712706/eventhive/photos/iiit/Kalyani_bagj1y.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Samgatha',
+                description: 'Samgatha is the annual cultural celebration of IIITDM Kancheepuram that started as a humble intra-college fest in 2011. Since then, it has grown by leaps and bounds, as a festival radiating fun and enthusiasm, boasting of over 40 events spread across three remarkable days. Samgatha strives to provide budding artists and curious minds from across the country a competing platform to showcase their talent in diverse fields. Samgatha 2022 had hilarious performance from Naveen Richards to a phenomenal band performance by Swastik The Band.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682784974/eventhive/eventpic/Samgatha_djhsl6.png',
+                website: 'http://www.samgatha.iiitdm.ac.in/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Vashisht',
+                description: 'Vashisht is the Annual Technical Fest of IIITDM Kancheepuram, aims to expand this platform of engineering aspirations and allow all techenthusiasts to showcase their intelligence and creativity capped in a highly competitive environmentpowered by an exhilarating mix of talent and skill. This Vashisht is themed "5URGE" (reads as surge,promoting 5G Adoption in India and highlighting the usage of 5G for Sustainability).',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682785160/eventhive/eventpic/Vashisht_rnfros.png',
+                website: 'vashisht.iiitdm.ac.in/html/aboutUs.html',
+                type: 'Technical'
             }
 
         ]
@@ -943,22 +910,24 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712705/eventhive/photos/iiit/Jabalpur_mzvwvx.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: ''
+                name: 'Abhikalpan',
+                description: 'ABHIKALPAN is the annual technical fest of IIITDM Jabalpur, an institute which boasts of technical superiority and innovation in what it builds. It’s central India’s biggest technical extravaganza for creating, nurturing and fueling one’s interest in various domains of computer science, robotics, electronics, gaming and design. In conjunction with the various technical events, various informal events keep the fest alive. The events that invite the footfall of thousands include Robowar, Circuit master, Brand presentation, Astronomy quiz amongst others.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682785557/eventhive/eventpic/Abhikalpan_pthenn.png',
+                website: 'https://www.iiitdmj.ac.in/others/events/abhikalpan-2018/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: ''
+                name: 'Invicta',
+                description: 'INVICTA is first of its kind Techno Cultural Design Fest of INDIA. Its a great place for the creative for the innovators and the visionaries. Invicta promises to be conflux of talent, smarts and fun.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682785640/eventhive/eventpic/Invicta_vv8qbe.png',
+                type: ['Cultural', 'Technical']
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: ''
+                name: 'Gusto',
+                description: 'GUSTO20 comes as an excellent opportunity to visit the pride of Central India and experience the beauty of the nature of our institute. Sitting in the lap of nature, our Institute will encourage sportsmanship among the participants and shall be a benchmark for future events to be planned. Expanding for a period of four highly bustling days, our Institute will conduct different sporting events which include Athletics, Basketball, Badminton, Carrom, Chess, Cricket, Football, Table-Tennis, Lawn-Tennis and Volleyball. Besides prolific gaming and athletics events, it also comprises of a surfeit of informal extravagant fun-filled events. Sport is not just about winning or losing, its about bringing the best out of a player, to develop sportsmanship and strengthen team spirit.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682785923/eventhive/eventpic/Gusto_qrozna.jpg',
+                website: 'https://www.iiitdmj.ac.in/gusto.iiitdmj.ac.in/',
+                type: 'Sports'
             }
 
         ]
@@ -1004,27 +973,11 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712708/eventhive/photos/iiit/Tiruchirappalli_gxxpru.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Aahladh',
+                description: 'Aahladh is a cultural festival celebrated annually by the students of the Indian Institute of Information Technology (IIIT) in Trichy, Tamil Nadu. This festival is a celebration of the rich cultural heritage of India and is a platform for students to showcase their talents and creativity. The festival is a vibrant and colorful event that showcases the diverse culture of India through various events and competitions such as dance, music, drama, fashion show, literary events, and many more. Students from different parts of the country participate in the festival and showcase their unique talents and cultural traditions.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682786880/eventhive/eventpic/aahladh__iiitt-20230429-0001_box3yv.jpg',
+                type: 'Cultural'
             }
-
         ]
     },
     {
@@ -1036,27 +989,12 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712706/eventhive/photos/iiit/Lucknow_jatpt2.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Equinox',
+                description: 'Equinox will take you on a 3-day journey filled with adventurous and educational events that will drive you to think outside the box and leave you with a hue of reminiscent memories. To participate in fest events you must be 18 years of age.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682787201/eventhive/eventpic/Equinox_iqwt0k.jpg',
+                website: 'https://iiitl.ac.in/equinox/',
+                type: ['Cultural', 'Technical']
             }
-
         ]
     },
     {
@@ -1100,27 +1038,11 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712706/eventhive/photos/iiit/Kurnool_tdvq64.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Solasta',
+                description: 'The SOLASTA is a Techno-Cultural fest of IIITDM Kurnool,india. New talents of students from all over india are encouraged to participate in competetions and events conducted by our college under the survialence of students of IIITDM Kurnool.and give them an oppotunity to win many prizes and certificates.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682787587/eventhive/eventpic/iiitk.solasta-20230429-0001_f15jbi.jpg',
+                type: ['Cultural', 'Technical']
             }
-
         ]
     },
     {
@@ -1132,27 +1054,19 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712707/eventhive/photos/iiit/Kottayam_n3zt8z.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Dhruva',
+                description: 'Dhruva is the annual tech fest of IIIT Kottayam! Its the amalgamation of mind gruelling competitions, thought provoking expert talks and workshops that stimulate your cerebral matter! Just like the pole star dhruva, this event is your chance to shine bright and bring into play the technical talents!',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682787928/eventhive/eventpic/dhruva_iiitk-20230429-0001_wbtxfm.jpg',
+                website: 'https://dhruva-nextjs.vercel.app/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Enlace',
+                description: 'Enlace, IIITKs cultural fest has been celebrating arts, heritage, music and lifestyle since its inception in 2019. A myriad of events with impressive and breathtaking performances has always been the norm. Its the amalgamation of mind gruelling competitions, thought provoking expert talks and workshops that stimulate your cerebral matter!',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682788071/eventhive/eventpic/Enlace_m1rfsw.png',
+                website: 'https://enlace-umber.vercel.app/',
+                type: 'Cultural'
             }
-
         ]
     },
     {
@@ -1164,26 +1078,12 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712708/eventhive/photos/iiit/Ranchi_lwqjpu.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Culariti',
+                description: 'Culariti is an annual cultural fest of IIIT Ranchi where you can showcase your artistic takents in dancing, singing, acting and much more.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682806099/eventhive/eventpic/culariti.iiitr-20230430-0001_ixlmf2.jpg',
+                type: 'Cultural'
             }
+
 
         ]
     },
@@ -1196,26 +1096,19 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712707/eventhive/photos/iiit/Nagpur_adstj7.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'TantraFiesta',
+                description: 'Tantrafiesta is the annual science and technology festival of the Indian Institute of Information Technology, Nagpur. Tantrafiesta hosts a plethora of social initiatives and outreach programs such as hackathons, coding contests, robo-races, debates, and seminars that help inspire the next generation of scientists and engineers. Tantrafiesta aims to provide a platform in order to establish a forum that will enable the exchange of knowledge, experience, and information related to a range of emerging technologies. This year, TantaFiesta is focusing on the use of greener technologies, and how utilizing greener technologies is the way forward.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682806435/eventhive/eventpic/tantrafiesta-20230430-0001_xexnhs.jpg',
+                website: 'https://www.tantrafiesta.in/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Abhivyakti',
+                description: 'A stage for students to celebrate and a chance for creative minds to express the diversity of our country, ABHIVYAKTI - the festival of expression, reminds us of the deep-rooted sense of culture in us. For the past five years, Abhivyakti has witnessed students from all over the country participate in competitions to showcase the talent pool in music, dance, drama, photography and everything that adds colors to our life. It is the floor where students learn to coordinate, manage, interact and work together as a team with common objectives.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682806647/eventhive/eventpic/Abhivyakti_gfsqqh.png',
+                website: 'https://abhivyakti.vercel.app/',
+                type: 'Cultural'
             },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            }
 
         ]
     },
@@ -1228,25 +1121,17 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712707/eventhive/photos/iiit/Pune_q1f79j.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'E-Summit',
+                description: 'E-Summit is the ultimate entrepreneurship summit of the year converging towards the realm of future startups by reflecting Global Financial Capitals in Metaverse. With Metaverse steering us closer towards globalisation by eliminating the “where” factor in our lives, the global financial capitals will soon find themselves immersed in this world of virtual cohabitation and gun for top talents worldwide without geographical concerns. E-Summit’22 wishes to contribute to the Metaverse supremacy by providing equal opportunities to everyone without worrying about the “where”.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682806912/eventhive/eventpic/E-Summit_khxlny.png',
+                website: 'https://esummit23.ecelliiitp.org/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Dhruva',
+                description: 'Dhruva, the annual techno-cultural festival of I2IT Pune, is a melange of colors and an avid display.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682807040/eventhive/eventpic/Dhruva_gkhntl.jpg',
+                type: ['Technical', 'Cultural']
             }
 
         ]
@@ -1260,25 +1145,17 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712703/eventhive/photos/iiit/Bhagalpur_dbuusj.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Udyatva',
+                description: 'Udyatva is the annual intra-college sports meet of IIIT Bhagalpur.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682807259/eventhive/eventpic/Udyatva_qnozdt.jpg',
+                type: 'Sports'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Enyugma',
+                description: 'Enyugma is the Techno-Cultural event of IIIT Bhagalpur that takes place with a mindset full of grooviness, refreshment and creativity.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682807411/eventhive/eventpic/Enyugma_kiemhx.jpg',
+                website: 'https://enyugma.iiitbh.ac.in/',
+                type: ['Technical', 'Cultural']
             }
 
         ]
@@ -1321,28 +1198,14 @@ const colleges_data = [
         link: 'https://www.iiitsurat.ac.in/',
         description: 'The Indian Institute of Information Technology Surat (IIIT Surat) is an Institute of National Importance established in Public-Private-Partnership (PPP) mode in 2017 by the erstwhile Ministry of Human Resource Development, Government of India. It offers undergraduate programs in two disciplines: Computer Science Engineering (CSE) and Electronics and Communication Engineering (ECE). The institute is located at SVNIT Campus Ichchanath, Surat, Gujarat 395007.',
         logoUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1681850757/eventhive/logo/iiit/Surat_bfficz.jpg',
-        imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712708/eventhive/photos/iiit/Surat_vgteza.jpgz',
+        imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680712708/eventhive/photos/iiit/Surat_vgteza.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Spring Fiesta',
+                description: 'We aspire to compile a variety of events starting from intense workshops to hackathons, contests, sports, and cultural shows. SPRING FIESTA yearns to be the greatest offline convention for the brightest contestants, working their way through intense challenges, all topped with an icing of astonishing dances, soothing musical performances, and whatnot. These three days are going to be lined up with- A Thrilling Sports fest,  A  Jaw-dropping Cultural fest, and A Marvelous Tech fest!',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682875110/eventhive/eventpic/Spring_Fiesta_nchhok.png',
+                website: 'https://www.spring-fiesta.tech/',
+                type: ['Sports', 'Cultural', 'Technical']
             }
 
         ]
@@ -1452,27 +1315,12 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1681939162/eventhive/photos/iiit/Hyderabad_low9yt.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Felicity',
+                description: 'Felicity, IIITs Annual College Fest, is back and this year it is all about sci-fi!  It is not just a festival, its an experience that evokes euphoria. Get ready to zoom into the future with an exciting lineup of cultural programs, workshops, comedy, and EDM nights. From cutting-edge tech talks to mind-bending competitions, Felicity has something for everyone. Brace yourself for takeoff into an alternate reality!',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682874597/eventhive/eventpic/Felicity_q0le0m.png',
+                website: 'https://felicity.iiit.ac.in/',
+                type: ['Cultural', 'Technical']
             }
-
         ]
     },
     {
@@ -1484,25 +1332,25 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1681939245/eventhive/photos/iiit/Bangalore_iyugqq.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Infin8',
+                description: 'IIIT Bangalore is back with a BANG with INFIN8- BIGGER and BETTER than before. Hold on to your seats as we present to you the largest and most exciting fest of our institute! A plethora of events awaits you to showcase your inner artist: War of words, Esports, Digital Art, Photography, Singing and Dance competitions and a lot more! Join in and be a part of this fun ride along with us @IIIT Bangalore. See you at the starting point of a marathon of mind-boggling, rib-tickling and adrenaline pumping events!',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682873133/eventhive/eventpic/Infin8_is8lrs.jpg',
+                website: 'https://infin8.zense.co.in/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Synergy',
+                description: 'Synergy is the annual TechFest of IIIT Bangalore! For this year, we have planned a wide variety of events ranging from exciting hackathons to intense debates. Synergy is a place where you can come to explore new facets of technology, and how it affects our society and compete in thrilling competitions! As we prepare for this exciting endeavor, stay tuned for more information!',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682873469/eventhive/eventpic/synergy_iiitb-20230430-0001_yvlmwf.jpg',
+                website: 'https://synergy.iiitb.net/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Spandan',
+                description: 'Spandan, IIITB’s annual sports organized by the Sports team in the month of March every year. The three-day event is fully loaded with outdoor as well as indoor games. We seek active participation of all the students/staff and faculties in different events. The cheers from the fans are spread everywhere in the campus which makes the whole atmosphere jolly. It doesn’t just end there. We also get a chance to meet our alumni who revisit our campus to participate in the games and share the memories the spent with their peers.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682873667/eventhive/eventpic/spandan_y4swl5.jpg',
+                website: 'http://spandan.iiitb.ac.in/events',
+                type: 'Sports'
             }
 
         ]
@@ -1516,25 +1364,16 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1681939354/eventhive/photos/iiit/Delhi_vc0ay2.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Odyssey',
+                description: 'IIIT Delhi Cultural Fest Odyssey offers a range of events in genres ranging from dance and drama, finance and entrepreneurship, music and lifestyle, food and fun, art and photography, and many more. With a footfall of over 30k and more than 45 events, Odyssey promises an unforgettable experience! The fest highlight is the epic, star-studded Nirvana Night, where everybody gets to unwind and end the fest on a high note. With artists like Jubin Nautiyal, Hardy Sandhu, Zakir Khan, and Prateek Kuhad gracing the stage in previous editions of Odyssey, the bar is set high, and this year it is only going to be bigger and better! ',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682872495/eventhive/eventpic/Odyssey_q6ppfz.jpg',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Esya',
+                description: 'Esya is a Sanskrit term meaning exploration and stands testimony to our vision of exploring the unexplored and making the world a better place to live in. Esya goes beyond being a simple Science and Technology competition. Unlike Aristotles principle of Episteme where your scientific knowledge needs to be governed by a first principle, we encourage participants to make their own first principles based on what they believe to be correct. We aim to nurture the ideas that come forth in the spirit of healthy competition. To accomplish the same, we intend to create opportunities such as collaboration among students and industry guidance to materialise such ideas.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682872710/eventhive/eventpic/Esya_deth6n.jpg',
+                type: 'Technical'
             }
 
         ]
@@ -1612,7 +1451,7 @@ const colleges_data = [
                 imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682192543/eventhive/eventpic/AXIS_huttcp.jpg',
                 website: 'https://axisvnit.in/',
                 type: 'Technical'
-            },
+            }
         ]
     },
     {
@@ -1649,25 +1488,17 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717799/eventhive/photos/nit/Hamirpur_klzb1k.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Nimbus',
+                description: 'NIMBUS, the annual technical festival of NIT Hamirpur is one of North Indias most distinguished and most anticipated event of the year. It is the conjugation of some of the finest technical minds in the country with a platform for them to promulgate their skills and aim to achieve a higher level of skill, polish the talents, and widen the exposure; with a healthy, competitive, and productive environment to support out toil and interests. Strong on its pillars of innovation, creativity, and teamwork, NIMBUS has been a gauge of technological eminence. NIMBUS has carved a niche for itself as one of the biggest technical fests in India.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682195940/eventhive/eventpic/Nimbus_jklopv.jpg',
+                website: 'https://festnimbus.nith.ac.in/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Hillffair',
+                description: 'Hill’ffair is the annual cultural extravaganza of NIT Hamirpur. It is an event which is usually held towards initial November or after the Diwali festival every year. Hill’ffair is a three-day extravaganza filled with fun, frolic, and excitement and brings out the non- technical creativity of pursuing engineers. Every year the students of NIT Hamirpur thrive to attain perfection by making Hill’ffair a brilliant masterpiece of grandeur and eminence.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682196218/eventhive/eventpic/Hillffair_uscdfg.jpg',
+                type: 'Cultural'
             }
 
         ]
@@ -1675,7 +1506,7 @@ const colleges_data = [
 
     },
     {
-        name: 'NIT Jaipur',
+        name: 'MNIT Jaipur',
         location: 'Jaipur, Rajasthan, India',
         link: 'http://www.mnit.ac.in/',
         description: 'Malaviya National Institute of Technology Jaipur (MNIT or NIT Jaipur) is a public technical university located in Jaipur, India with an emphasis on science, engineering and management. The Government of India and the Government of Rajasthan jointly established the Institute in 1963 as Malaviya Regional Engineering College, Jaipur. The college was subsequently given the designation of National Institute of Technology on June 26, 2002.',
@@ -1683,25 +1514,25 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717800/eventhive/photos/nit/Jaipur_erc7mh.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'BLITZSCHLAG',
+                description: 'BLITZSCHLAG, "A Paranoid to Paradise", MNITs Annual Cultural Festival launched in 2005, also widely known as Blitz has a decade-long glorious history. It is synonymous throughout Rajasthan as a whole- some carnival, due to its unparalleled grandeur making it a 2nd Largest Cultural Fest of Rajasthan.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682197034/eventhive/eventpic/BLITZSCHLAG_mw70qs.jpg',
+                website: 'https://mnit.ac.in/cacs/Blitzschlag',
+                type: 'Cultural'
             },
             {
-                name: '',
+                name: 'Sphinx',
                 description: '',
-                imgUrl: '',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682197588/eventhive/eventpic/Sphinx_ho0thf.png',
                 website: '',
-                type: ''
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'MST',
+                description: 'The MNIT Sports Tournament (MST), one of Rajasthans largest sporting events, began in 2007. About 300 people from 12 different institutes took part in its first edition. 30+ Institutions MST has expanded significantly over the years, with both the number of participants and institutes growing rapidly.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682198664/eventhive/eventpic/MST_ppujg1.png',
+                website: 'https://mst-mnit.com/',
+                type: 'Sports'
             }
 
         ]
@@ -1716,25 +1547,18 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717810/eventhive/photos/nit/Jalandhar_cjng1c.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Utkansh',
+                description: 'The annual cultural fest “UTKANSH”, which attracts thousands of students across the country to participate in the days of extravaganza comprising of competitions, seminars, symposium and workshops. Since its inception in 2006, this festival has been identified as a convergence of cultures and a confluence of best talents across the country.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682198859/eventhive/eventpic/Utkansh_rabkud.jpg',
+                website: 'https://www.utkansh.com/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'techNITi',
+                description: 'TechNITi is just not an event but a celebration of colors of innovation and management and aims to foster the entrepreneurial spirit among the students fraternity. TechNITi is an expression of excellence, a platform that aims to be the stepping stone for innovative ideas and to turn them into an opportunity to revolutionize the world.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682199077/eventhive/eventpic/techNITi_cvasyr.png',
+                website: 'https://www.techniti.org.in/',
+                type: 'Technical'
             }
 
         ]
@@ -1749,25 +1573,25 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717818/eventhive/photos/nit/Jamshedpur_frj1aa.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Culfest',
+                description: 'Culfest is the annual cultural festival of the college. It is organised at national level and participants from the colleges all over India participate.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682199334/eventhive/eventpic/Culfest_arwjtx.jpg',
                 website: '',
-                type: ''
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Ojass',
+                description: 'Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass strives to foster and boost cogent engineering practices in the nation providing a zealous platform to display ones technical prowess.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682199503/eventhive/eventpic/Ojass_j6slqg.jpg',
                 website: '',
-                type: ''
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Urja',
+                description: 'The Annual Sports Fest Of NIT Jamshedpur.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682199634/eventhive/eventpic/Urja_gd62o1.jpg    ',
                 website: '',
-                type: ''
+                type: 'Sports'
             }
 
         ]
@@ -1782,27 +1606,19 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717800/eventhive/photos/nit/Kurukshetra_u8ujlt.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Confluence',
+                description: 'Confluence, the annual cultural Festival of NIT Kurukshetra is a cultural extravaganza beyond words, beyond description. Confluence is the coming together of free spirits, like-minded zealous youth and a celebration of culture of true artistic genius. Its urge to deliver the maximum is what makes it one of the most awaited cultural festival.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682200233/eventhive/eventpic/Confluence_ouii6p.jpg',
+                website: 'https://www.confluencenitkkr.com/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Techspardha',
+                description: 'Techspardha is a national level annual techno-managerial students’ festival of National Institute of Technology, Kurukshetra. It started in 1995 as “Technospect” (later changed to Literati). The year 2013 marked the Golden Jubilee of NIT Kurukshetra, same year it was renamed as Techspardha.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682200359/eventhive/eventpic/Techspardha_shogbu.jpg',
+                website: 'https://nitkkr.ac.in/?page_id=312',
+                type: 'Technical'
             }
-
         ]
 
     },
@@ -1815,25 +1631,18 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717799/eventhive/photos/nit/Calicut_mrip8d.jpg',
         fests: [
             {
-                name: '',
+                name: 'Ragam',
                 description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682201898/eventhive/eventpic/Ragam_uaerrj.png',
+                website: 'https://ragam.co.in/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Tathva',
+                description: 'Tathva, the techno-management fest of NIT Calicut is one of south Indias biggest scholastic endeavours. Since its inception in 2000, this annual symposium has known only growth and has flourished into one of the few promising enterprises the nation has witnessed.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682202353/eventhive/eventpic/Tathva_ijqlcc.jpg',
+                website: 'https://www.tathva.org/',
+                type: 'Technical'
             }
 
         ]
@@ -1848,25 +1657,25 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717806/eventhive/photos/nit/Rourkela_cikm6h.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'NITRutsav',
+                description: 'National Institute of Technology, Rourkela, enunciate the "offline" edition of its very own literary and cultural festival, NITRUTSAV 2023. Nitrutsav works to give students a creative outlet to commemorate and introspectively explore their creative freedom with pioneering ideas, celebrating the creative goodwill of a mind filled with ingenuity and innovation. With a plethora of fascinating cultural events, it also provides students with a gateway to showcase their creative zeal and appreciate their artistic aspects and willingness to discover hidden talents.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682202518/eventhive/eventpic/NU_Branding_ejqkyu.svg',
+                website: 'https://nitrutsav.live/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'InnoVision',
+                description: 'Innovision is one of the biggest technical fests in Eastern India. You can delve deeply into science and technology at this event. It is entirely run by the NIT Rourkela student body and provides a huge platform for many different activities, organized in the form of competitive events, guest lectures, technical workshops, and exhibitions. Technology enthusiasts can use it as a platform to show off their intelligence and ingenuity.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682202719/eventhive/eventpic/InnoVision_zahxud.jpg',
+                website: 'https://inno.nitrkl.in/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Vriddhi',
+                description: 'Game ON!! In NITR Vriddhi Sports fest. Get ready for a fantastic tour of E-sports from the vastness of battlegrounds, skills of FIFA, and strategy of Chess. We have a wide range of online gaming contests. Winners would be given amazing rewards. GAMERs success is temporary; failure isnt final. Your courage to strive is what matters!!!',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682202891/eventhive/eventpic/Vriddhi_vaycfj.jpg',
                 website: '',
-                type: ''
+                type: 'Sports'
             }
 
         ]
@@ -1881,25 +1690,25 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717810/eventhive/photos/nit/Silchar_scq4sy.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Posua',
+                description: 'With the arrival of Posua, the wind that marks the advent of the queen of seasons, NIT Silchar is all set for their annual celebration of the spring fest - POSUA. The fest aims to demonstrate the rich cultural heritage of Assam, northeast and India as a whole and the love of the people for their motherland. A day filled with a plethora of events ranging from cultural events to mass tree plantation and cleanliness drives, it witnesses a footfall of around 10,000 people annually. ',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682203019/eventhive/eventpic/Posua_jauh31.jpg',
                 website: '',
-                type: ''
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Tecnoesis',
+                description: 'Annual Techno-Management Festival of NIT Silchar. One of a kind and the biggest tech fest of North-East India.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682203225/eventhive/eventpic/Tecnoesis_pjytb2.jpg',
+                website: 'https://tecnoesis.org/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Incandescence',
+                description: 'The annual cultural fest, Incandescence, has been as insignia of the NIT Silchar spirit every year where performers from the entire North-East flock in hoards to create a scintillating display of ingenuity, excellence and fun, thus creating a wholesome blend of imbuement and expression.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682203534/eventhive/eventpic/Incadescence_gek77h.jpg',
+                website: 'https://kc596.github.io/incandescence/#about',
+                type: 'Cultural'
             }
 
         ]
@@ -1914,25 +1723,11 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717803/eventhive/photos/nit/Karnataka_gjoiis.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Incident',
+                description: 'What started as a small fest with a meagre budget in the 80s now stands as one of the best college festivals in India. Incident is a blend of cultural, social, and musical events thatll surely give the attendees an ecstatic experience. Incident 2023s unique theme, "A Tale of Bards and Knights", is adapted to celebrate this 3-day extravaganza with medieval grandeur.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682203686/eventhive/eventpic/Incident_t2rdlk.jpg',
+                website: 'https://incident.nitk.ac.in/',
+                type: 'Cultural'
             }
 
         ]
@@ -1947,25 +1742,25 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717813/eventhive/photos/nit/Warangal_cxllzg.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'SpringSpree',
+                description: 'SpringSpree was started in the year 1978 by the students of National Institute of Technology, Warangal.  It was an intercollegiate annual sports and cultural event held between January and March every year. Students came up with the idea of holding a small festival, which would lay down a platform for the students to showcase their skills in the areas of sports, athletics and cultural activities. Additionally, the festival was to unify a diverse student body by celebrating the culture of the regions to which they belonged along with the culture of India as a whole. It was the first college festival in southern India and was conducted every year till the end of the 90s. SpringSpree was not conducted for a few years in the early 2000s. Its revival was gradual with small fests from clubs finally giving rise to a mini cultural festival called Elysium in 2006. In 2007, SpringSpree was brought back and has since been an annual event.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682203962/eventhive/eventpic/SpringSpree_i61xjp.png',
+                website: 'https://springspree.nitw.in/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Technozion',
+                description: 'Technozion is the annual celebration of engineering, science and technology organised wholly and solely by the students of NIT Warangal. Thus, one can not go wrong with the level of enthusiasm shown by the young engineering population, and the resulting magnificent ideas from it.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682204042/eventhive/eventpic/Technozion_wnq3h8.jpg',
                 website: '',
-                type: ''
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Ayodhan',
+                description: 'A 3 days inter college sports extravaganza hosted by NITW which aims at being a one of its kind even',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682204208/eventhive/eventpic/Ayodhan_wdpdzj.jpg',
                 website: '',
-                type: ''
+                type: 'Sports'
             }
 
         ]
@@ -1980,25 +1775,25 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717811/eventhive/photos/nit/Surat_coehpg.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Sparsh',
+                description: 'The largest of its kind in Gujarat, NIT Surats annual cultural festival, SPARSH since 1993 Embracing talent & culture every year in the campus.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682204441/eventhive/eventpic/Sparsh_skitvw.jpg',
+                website: 'https://sparshsvnit.in/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Mind Bend',
+                description: 'Mindbend is the annual techno-managerial festival of Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat, being organized in April this year. The students of SVNIT, Surat entirely organize the fest. It acts as an excellent stepping stone for all the tech enthusiasts out there! This festival aims to bring together some of the worlds leading scientific minds, recognized technologists, and prominent thinkers and unite them on a large platform. This year, Mindbend also gives all tech aficionados a platform to support the Make In India initiative.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682204560/eventhive/eventpic/Mind_Bend_apzozo.jpg',
+                website: 'https://mindbendsvnit.in/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Ignis',
+                description: 'IGNIS is SVNIT’s Annual Sports Meet and is one of the biggest in Western India. SVNIT, Surat in the past has hosted several other editions of Inter-NIT Tournaments besides the five Annual meets. Filled with the elements of joy, entertainment, celebrations and fun, IGNIS is indeed one of the biggest events of its kind. The event promises to be bigger than ever around with several informal events being added to the mix.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682204687/eventhive/eventpic/Ignis_gebpsx.png',
+                website: 'https://abhishek2f24.github.io/ignis/',
+                type: 'Sports'
             }
 
         ]
@@ -2013,25 +1808,25 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717811/eventhive/photos/nit/Trichy_h0jx0t.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Festember',
+                description: 'Festember, the largest cultural festival of South India, was started by the students of the National Institute of Technology, Tiruchirappalli, as a zero-budget fest in the year 1975. Since then, it has grown to attract students from over 500 colleges from all across India. Apart from that, it has also been known to bring forth stalwarts from various fields such as Jonty Rhodes, Nithya Menen, Amit Trivedi, Guns n Roses, and Karthick Iyer, to name a few. Festember continues to grow and help create memories each year, living upto its name of "a fest to remember".',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682205003/eventhive/eventpic/Festember_dgrucg.jpg',
+                website: 'https://festember.com/22/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Pragyan',
+                description: 'Pragyan, the international techno-managerial organisation of NIT Trichy, which came into being in 2005, achieves just that by providing a platform for a multitude of students to showcase their technical ingenuity and prowess. Pragyan has come a long way since its inception, propelling the fields of science and technology toward greater heights. It basks in the limelight with the London Olympics and Manchester United as one of the three organisations to have ever achieved the ISO 20121:2012 Certification for Sustainable Event Management. Pragyan also holds the coveted honour of being the only student-run organisation amongst the three. In addition, Pragyan has the ISO 9001:2015 Certification for Quality Management Systems. Moreover, it has been registered as a case study in The Case Centre, London.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682205155/eventhive/eventpic/Pragyan_k4fdim.jpg',
+                website: 'https://www.pragyan.org/23/',
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'SportsFete',
+                description: 'Here at the NIT Trichy Sports Council, we envision a campus united by the values taught to us by sports - integrity, teamwork, and commitment. We strive to create an environment within the campus where sports can thrive and form an integral part of the lives of all those who reside at NIT Trichy, students and staff alike. The council organizes multiple events throughout the year, encouraging all those passionate about the sport they love. We also engage with the members of the campus who partake in these events and aim to facilitate their endeavors in the best possible manner.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682205277/eventhive/eventpic/SportsFete_ibrt8l.jpg',
                 website: '',
-                type: ''
+                type: 'Sports'
             }
 
         ]
@@ -2046,25 +1841,18 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717802/eventhive/photos/nit/Arunachal_Pradesh_goq23c.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Atulyam',
+                description: 'ATULYAM is the Inter college Annual Cultural Festival of NIT Arunachal Pradesh. Atulyam is one of the important college fests in north east as well as in country. This year the college is going to organize its 3rd annual cultural festival. Atulyam has entertainment, fun integrate with awareness and responsibility, creating a holistic and magical environment making this festival grand, extravagant and worthwhile.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682205378/eventhive/eventpic/Atulyam_nvzjmk.jpg',
                 website: '',
-                type: ''
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Addovedi',
+                description: 'Addovedi is the first dedicated technical festival organized by a university in Arunachal pradesh.Addovedi is the celebration of Science and technology, it challenges students from all over India to come, participate and unleash the genius within them.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682205484/eventhive/eventpic/Addovedi_nzfoac.jpg',
                 website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                type: 'Technical'
             }
 
         ]
@@ -2079,27 +1867,19 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717796/eventhive/photos/nit/Agartala_zmmqcz.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Moksha',
+                description: 'MOKSHA is the Annual Socio-Cultural Festival of NIT Agartala. Moksha has evolved as one of the finest college fests one has ever experienced. ',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682205833/eventhive/eventpic/Moksha_halrhy.jpg',
                 website: '',
-                type: ''
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Aayam',
+                description: 'AAYAM, the annual Techno-Management festival of NIT AGARTALA is a humble attempt to promote and foster this co-existential relationship between Man and Technology. ',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682205883/eventhive/eventpic/Aayam_hypfhl.jpg',
                 website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                type: 'Technical'
             }
-
         ]
 
     },
@@ -2112,25 +1892,25 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717805/eventhive/photos/nit/Raipur_wvcfgc.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Electica',
+                description: 'Eclectika, The Cultural Festival of National Institute of Technology Raipur, scheduled in Spring every year is considered as the biggest College festival of Central India so far. It attract students from more than 100 colleges all over India.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682206132/eventhive/eventpic/Electica_a5lg25.jpg',
                 website: '',
-                type: ''
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Aavartan',
+                description: 'All the theories and formulae boils down to one most crucial thing in Engineering- Application. This ideology forms the basis of an occasion which lets the engineer in every student fly and air the spark within. And we have named it as "Aavartan"​.It is a two day annual symposium of NIT Raipur, by far the largest Techfest of central India, by some standards.Aavartan is the celebration of engineering, science and technology organized wholly and solely by the students of NIT Raipur. Aavartan also sees itself as a socially responsible entity by encouraging and undertaking various social initiatives every year, like this time around it is; Awareness about Digital India.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682209383/eventhive/eventpic/Aavartan_ko57kt.jpg',
                 website: '',
-                type: ''
+                type: 'Technical'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Samar',
+                description: 'SAMAR is the Annual Inter-college Sports Festival of NIT Raipur being organised by "SHAURYA" The Sports Committee of NIT Raipur.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682209522/eventhive/eventpic/Samar_zbxmqy.jpg',
                 website: '',
-                type: ''
+                type: 'Sports'
             }
 
         ]
@@ -2145,27 +1925,12 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717804/eventhive/photos/nit/Patna_cq2mro.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Annual Tech-Fest',
+                description: 'The annual technical fest of NIT Patna has become one of the biggest technical fest of the country. The last edition attracted participants from over 150 institutes from across the country, thus making it the largest technical fest of Bihar and Jharkhand. Aimed at providing a platform for showcasing the best and the latest innovations in the world of technology, various events such as robotics, circuit designing, programming, presentations etc. gives the students to showcase their talent and their practical skills to use.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682209954/eventhive/eventpic/coronapic_mpnx64.png',
                 website: '',
-                type: ''
+                type: 'Technical'
             },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            }
-
         ]
 
     },
@@ -2178,27 +1943,12 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717809/eventhive/photos/nit/Srinagar_l7neuo.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Techvaganza',
+                description: 'Techvaganza, the annual Technology Festival of NIT Srinagar. Our aim is to bring together students, professionals, and enthusiasts from across the country to celebrate the latest advancements in technology, learn from experts in the field, and network with like-minded individuals.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682210076/eventhive/eventpic/Techvaganza_ejq4hz.png',
+                website: 'https://techvaganza.nitsri.ac.in/',
+                type: 'Technical'
             }
-
         ]
 
     },
@@ -2211,25 +1961,18 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717797/eventhive/photos/nit/Delhi_uzhnkm.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Saptrang',
+                description: 'Annual Cultural Fest National Institute of Technology, Delhi, organised in february month of every year is a package full of entertainment and enthusiasm.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682210242/eventhive/eventpic/Saptrang_zdyreg.jpg',
                 website: '',
-                type: ''
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
+                name: 'Sentience',
+                description: 'Sentience is the Techno-Cultural fest of NIT Delhi. Sentience fest is stepping into its glorifying first year as a synthesis of all that NIT Delhi has to offer. Now, breaking all barriers between the two worlds of artistry and technology, Sentience fest was born. As NIT fest Delhi, steps into its first year, be ready to groove and innovate. ',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682210452/eventhive/eventpic/Sentience_pt0ukd.jpg',
                 website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                type: 'Technical'
             }
 
         ]
@@ -2244,27 +1987,12 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717798/eventhive/photos/nit/Goa_jpkwwh.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Saavyas',
+                description: 'SAAVYAS is NIT Goas very own Techno - Cultural Fest, it comprises of a beautiful balance of various events catering to the very diverse audience of Goa. Students from all over Goa and beyond come together to participate in the event. This year we wish to host the event on a much higher scale and make the fest a grand spectacle and a memorable event.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682210673/eventhive/eventpic/Saavyas_zozsgr.jpg',
+                website: 'https://www.saavyas.org/',
+                type: ['Cultural', 'Technical', 'Sports']
             }
-
         ]
 
     },
@@ -2277,25 +2005,11 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717801/eventhive/photos/nit/Manipur_qujp8h.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Ougri',
+                description: 'The OUGRI is an annual cultural and technical festival organized by the National Institute of Technology (NIT), Manipur. Its name is derived from the ancient cultural dance and music performance, Ougri of the Lai Haraoba festival.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682528682/eventhive/eventpic/Ougri_aaai80.jpg',
+                website: 'http://www.kumhei.com/ougri',
+                type: ['Cultural', 'Technical']
             }
 
         ]
@@ -2310,25 +2024,18 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717802/eventhive/photos/nit/Meghalaya_rcxzdk.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Shishir',
+                description: 'SHISHIR is the Annual Cultural Fest of the National Institute of Technology, Meghalaya. Quoting the words of David Binder - "Festivals promote diversity, they bring neighbours into dialogue, they increase creativity, they offer opportunities for civic pride, they improve our general psychological well-being." Keeping this in mind, National Institute of Technology, Meghalaya brings Meghalayas largest cultural fest Shishir, where you can enjoy and explore the real you from within.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682529462/eventhive/eventpic/Shishir_mgybuq.jpg',
+                website: 'http://nitm.ac.in/shishir/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Cognitia',
+                description: 'COGNITIA is the Annual Technical Festival of the National Institute of Technology, Meghalaya. COGNITIA literally means "I think therefore I am and is a celebration of the creative spirit and youthful energy inherent in the countrys college students. This time its a whole new game, it is not about the victors or the vanquished, it is not about glory or defeat. It is about conquering your demons, it is about upping yourself, it is about the quest for excellence. Cognitita has gradually diversified into an organisation that apart from showcasing the pinnacle of technical advancement strives for the betterment of society by developing an inclination of the youth populace towards the current social issues through unique initiatives.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682529541/eventhive/eventpic/Cognitia_epsgld.png',
+                website: 'https://cognitia.in/',
+                type: 'Technical'
             }
 
         ]
@@ -2343,25 +2050,10 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717802/eventhive/photos/nit/Mizoram_k2tu8g.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Morphosis',
+                description: 'The Technical Society of NIT Mizoram presents you the annual technical fest Morphosis. We are presenting a wide range of new and exciting events and that too at a very competitive level that is assured to send down a chill through your spines. So make your minds ready to experience the technical frenzy with Morphosis.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682529939/eventhive/eventpic/Morphosis_daadsa.jpg',
+                type: 'Technical'
             }
 
         ]
@@ -2376,25 +2068,10 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717806/eventhive/photos/nit/Nagaland_wiiwuo.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Ekarikthin',
+                description: 'Ekarikthin is the annual Techno-Cultural Festival of NIT Nagaland.It provides a platform to young nurturing,talented youths to showcase their talents in various culturals and technical events which are organised during these two days of extravaganza.The main attraction includes the battle of bands(annual rock contest) where artists from varIous parts of the country compete among each other,Mr and Miss Ekarikthin competition,fashion show,various exhibitions,singing and dance competitions.Literary contests like quizzes,debates,spelling bee etc are also organised .The techinal sections includes robotic contests,online coding ,electra quest,various onine events and many other exciting games like dota,fifa ,counter strike,NFS etc which has good winning amount.Famous bands and singers also share ekarikthin stage every year.Social initiative are also taken up,the ekarikthin marathon is organised every year.Summing up ekarikthin is the key to all sort of funs,a chance to win huge sum and a platform to bring the diverse culture and heritage of this nation on a single platform.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682530133/eventhive/eventpic/Ekarikthin_lwlhvi.jpg',
+                type: ['Technical', 'Cultural']
             }
 
         ]
@@ -2409,27 +2086,19 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717809/eventhive/photos/nit/Sikkim_ryhbxl.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Udgam',
+                description: 'Udgam is an annual cultural fest of the National Institute of Technology Sikkim and is considered one of the biggest fests in North East India. It is an event that brings together students from all over India and celebrates their diverse cultures. With each passing year, Udgam has become a marvelous platform for upcoming artists to showcase their amazing talent and a manifesto to make unforgettable memories.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682530469/eventhive/eventpic/Udgam_w1fao1.jpg',
+                website: 'https://udgam.nitsikkim.ac.in/udgam23/home.php',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Abhiyantran',
+                description: 'Abhiyantran is the annual technical fest of National Institute of Technology Sikkim, an institute of national importance, Govt. of India. After the establishment of campus in 2010, students struggled a lot to develop it. Being in the lap of the Himalayas, we have overcome many odds with the help of Hon’ble Director, NIT Sikkim and other faculty. This great initiative started in the year 2014 .It includes comprehensive talks, tech-exhibitions, workshops, different events, cultural nights and many more. It has grown to be one of the most anticipated extravaganzas in North-East because of the quality of events and participation. The festival is graced by the presence of renowned personalities from around the globe who not only attend the fest but also inspire the students with their talks towards sustainable development of modern technology.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682530611/eventhive/eventpic/Abhiyantran_nx2mgn.png',
+                website: 'https://abhiyantran.nitsikkim.ac.in/',
+                type: 'Technical'
             }
-
         ]
 
     },
@@ -2442,25 +2111,10 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717812/eventhive/photos/nit/Uttarakhand_eujly5.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Cliffesto',
+                description: 'Cliffesto is an amalgam of a plethora of events which encompass every possible flavour. The inception of Cliffesto is with the aim of promoting arts and entertainment through various cultural events and activities; encouraging innovation in technology through various technical competitions in the field of engineering like robotics, wireless electricity transfer, bridge building, etc. Apart from this a National Level Rafting and Kayaking Workshop, and a Best Innovation Challenge will be chief attractions of Cliffesto along with the performance of a popular band or a popular singer in the Pro-nite, as well as a congregation of eminent poets in the Sham-e-Shayari.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682530797/eventhive/eventpic/Cliffesto_dpudzl.jpg',
+                type: 'Cultural'
             }
 
         ]
@@ -2475,25 +2129,10 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717799/eventhive/photos/nit/Andhra_Pradesh_ducp3l.png',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Vulcanzy',
+                description: 'The objective is to provide a refreshing environment to students with forgetting struggles during COVID -19 pandemic and showcase their hidden talents and creativity in beyond academics. The students gave a range of performances, from dancing, and singing to playing musical instruments, and actively participated in many technical events. The fest brought out a fusion between technology and India’s varied culture.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682531326/eventhive/eventpic/Vulcanzy_ltpahv.jpg',
+                type: ['Cultural', 'Technical']
             }
 
         ]
@@ -2508,25 +2147,18 @@ const colleges_data = [
         imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1680717814/eventhive/photos/nit/Puducherry_m7iejr.jpg',
         fests: [
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Le Ciel',
+                description: 'Set your expectations sky-high as Le Ciel is approaching. In 2018, NITPY got its mega inter-college cultural fest named Le Ciel, literally meaning the sky, well what a fitting name as we all are aware of the scenic beauties of NITPY skies; our fest will be no less than that.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682531591/eventhive/eventpic/Le_Ciel_x24dcz.jpg',
+                website: 'https://www.lecielfest.com/',
+                type: 'Cultural'
             },
             {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
-            },
-            {
-                name: '',
-                description: '',
-                imgUrl: '',
-                website: '',
-                type: ''
+                name: 'Gyanith',
+                description: 'A technical symposium conducted by the National Institute of Technology Puducherry by the combined efforts of all the departments of the college. Gyanith is platform for the engineering students from all over the country to showcase their technical skills and knowledge, intellectual spark, competitive nature scientific inventions and discoveries to the entire world.',
+                imgUrl: 'https://res.cloudinary.com/dfa9vxyte/image/upload/v1682531775/eventhive/eventpic/Gyanith_yuk7on.jpg',
+                website: 'https://gyanith.org/',
+                type: 'Technical'
             }
 
         ]
