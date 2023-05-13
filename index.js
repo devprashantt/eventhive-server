@@ -43,11 +43,12 @@ connectDB();
 // Create the Express app
 const app = express();
 
+
 // Add middleware
 app.use(cors({
-    // origin: 'http://127.0.0.1:5173',
-    origin: 'https://eventhive.vercel.app',
-    credentials: true
+    origin: '*',
+    credentials: true,
+    optionSuccessStatus: 200,
 })); // Enable CORS
 app.use(bodyParser.json({ limit: '30mb', extended: true })); // Parse JSON
 app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded data
