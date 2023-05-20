@@ -45,11 +45,14 @@ const app = express();
 
 
 // Add middleware
-app.use(cors({
-    origin: '*',
-    credentials: true,
-    optionSuccessStatus: 200,
-})); // Enable CORS
+const allowedOrigins = ['http://127.0.0.1:5173', 'https://eventhive.vercel.app'];
+
+app.use(
+    cors({
+        origin: allowedOrigins,
+        credentials: true,
+    })
+);// Enable CORS
 app.use(bodyParser.json({ limit: '30mb', extended: true })); // Parse JSON
 app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded data
 app.use(compression()); // Compress responses
