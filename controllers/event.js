@@ -49,6 +49,9 @@ export async function createEvent(req, res) {
             location: req.body.location,
             banner: banner_link,
             colleges: req.body.college,
+            social_links: req.body.socialLinks,
+            category: req.body.category,
+            tags: req.body.tags,
         });
         await event.save();
 

@@ -1,5 +1,32 @@
 import mongoose from 'mongoose';
 
+const socialSchema = new mongoose.Schema({
+    facebook: {
+        type: String,
+    },
+    instagram: {
+        type: String,
+    },
+    twitter: {
+        type: String,
+    },
+    website: {
+        type: String,
+    },
+    linkedin: {
+        type: String,
+    },
+    youtube: {
+        type: String,
+    },
+    github: {
+        type: String,
+    },
+    discord: {
+        type: String,
+    },
+});
+
 const eventSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -16,21 +43,9 @@ const eventSchema = new mongoose.Schema({
     end_time: {
         type: String,
     },
-    facebook_link: {
-        type: String,
-    },
-    instagram_link: {
-        type: String,
-    },
-    twitter_link: {
-        type: String,
-    },
-    website_link: {
-        type: String,
-    },
-    linkedin_link: {
-        type: String,
-    },
+    social_links: [
+        socialSchema
+    ],
     location: {
         type: String,
     },
@@ -41,6 +56,12 @@ const eventSchema = new mongoose.Schema({
         type: Number,
         default: 1
     },
+    category: {
+        type: String,
+    },
+    tags: {
+        type: [String],
+    },
     status: {
         type: String,
         enum: ['Upcoming', 'Ongoing', 'Finished'],
@@ -50,10 +71,7 @@ const eventSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'College'
     }],
-    category: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Category'
-    }],
+
     resources: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Resource'
